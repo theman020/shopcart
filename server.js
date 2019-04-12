@@ -213,7 +213,8 @@ app.post('/getUserCart',async(req,res)=>{
   }
 })
 
+const PORT=process.env.PORT || 9001
 db.sync()
   .then(() => {
-    app.listen(9001)
+    app.listen(PORT)
   })
