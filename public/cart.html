@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<center style="padding-top: 100px">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart Page</title>
+    <style>
+            .card {
+              background:moccasin;
+              border-radius: 2px;
+              display: inline-block;
+              height: 150px;
+              margin: 1rem;
+              position: relative;
+              
+            }
+            .btns {
+            position: absolute;
+            right: 0;
+            margin-bottom: 30;
+            bottom: 0;
+            margin-bottom: 17px;
+            margin-right: 10px;
+            font-size: 16px;
+            }
+            .card-1 {
+              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+              transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+              font-size: 20px;
+              color:rgb(99, 92, 92);
+            }
+        
+            .card-1:hover {
+              box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            }
+          </style>
+</head>
+<body bgcolor="lightblue">
+     <h1 style="color:rgb(92, 86, 86)">Cart</h1>
+        <input id="username" placeholder="User Name"> &emsp; &emsp;
+        <button id="find"> Find </button>
+        <div id="shopcardlist"></div>
+</body>
+</center>
+<script src="jquery.js"></script>
+<script src="cart.js"></script>
+</html>
